@@ -3,8 +3,10 @@
 
 body{
     background-color:#E9C9F2;
-
+    margin: auto;
+    text-align: center;
 }
+
 
 h2{
   color: #D9597B;
@@ -22,3 +24,12 @@ h1{
 
 }
 
+#logo{
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#estrella{
+    padding-right: 83%;
+    padding-bottom: 3%;
+}
