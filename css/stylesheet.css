@@ -35,12 +35,26 @@ h1{
     padding-bottom: 3%;
 }
 
-#button{
+button{
     background-color:#EFF29B;
+    font-family: "Braah One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: auto;
-    width: 200px;
+    width: 400px;
     margin-top: 50px;
+    border: none;
+    font-size: 40px;
+    border-style: dotted;
+    border-color:#D9597B;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+}
 
+a{
+    text-decoration: none;
+    color: #D9597B;
 }
 
 section{
