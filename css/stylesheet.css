@@ -34,3 +34,15 @@ h1{
     padding-right: 83%;
     padding-bottom: 3%;
 }
+
+#button{
+    background-color:#EFF29B;
+    margin: auto;
+    width: 200px;
+
+}
+
+section{
+    display: grid;
+    
+}
