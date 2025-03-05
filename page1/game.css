@@ -2,6 +2,9 @@
 
 body{
     background-color:#E9C9F2;
+    margin: auto;
+    width: 80%;
+    text-align: center;
 
 }
 
@@ -18,6 +21,11 @@ h1{
   font-family: "Braah One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 60px;
+}
+
+#task{
+  text-align: center;
 }
 
 p{
@@ -26,4 +34,37 @@ p{
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  font-size: 40px;
+}
+
+#sectask{
+  display:flexbox;
+  flex-direction:row;
+  background-color: #EFF29B;
+  margin: auto;
+  
+}
+
+#rbkabeza{
+  grid-column: 1/ span 3;
+  width: 800px;
+}
+
+
+
+#photos{
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-auto-flow: dense;
+}
+
+
+
+#logo{
+  grid-column: 8/ span 2;
+}
+
+#estrella1{
+  grid-column: 1/span 2;
 }
