@@ -38,10 +38,13 @@ p{
 }
 
 #sectask{
-  display:flexbox;
-  flex-direction:row;
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
   background-color: #EFF29B;
-  margin: auto;
+  height: 100px;
+  margin-bottom: 5%;
+  margin-top: 5%;
   
 }
 
