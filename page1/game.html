@@ -10,28 +10,46 @@
     </head>
     <body>
     <section id="sectask">
-     <h1>Task 1:</h1>
-     <p> lorem ipsum lorem ipsum</p>
+     <h1 id="task">Task 1:</h1>
+     <p id="instruct"> lorem ipsum lorem ipsum</p>
     </section>
    
   <iframe src="https://docs.google.com/spreadsheets/d/11iPL-ui04Ve-VajcuYI1l5flDSCxhQH8muRtPtBZq-c/edit?rm=minimal
   "></iframe>  
-<div>
-    <button id="changeTextBtn">Next Task!</button>
-</div>
 
-<section id="photos">
-    <img id="estrella1" src="../img/estrellas.png">
-    <img id="logo" src="../img/logo.png">
-</section>  
+
+    <button onclick="change_text()" >Next Task!</button>
     
-<script>
-     document.addEventListener("DOMContentLoaded", function() {let button = document.getElementById("changeTextBtn"); button.addEventListener("click", function() {
-                document.getElementById("taskTitle").innerText = "Task 2";
-                document.getElementById("taskDescription").innerText = "This is the next task!";
-            });
-        });
-</script>
+    <script type="text/javascript">
+        
+        function change_text()
+        {
+            document.getElementById("task").innerHTML="Task 2:";
+            document.getElementById("instruct").innerHTML="Instructions 2"
+        }
+        let taskNumber = 1;
+    const tasks = ["Task 2:", "Task 3:", "Task 4:"];
+    const instructions = ["Instructions 2", "Instructions 3", "Instructions 4"];
+    
+    function change_text() {
+        // Update task and instructions based on taskNumber
+        if (taskNumber < tasks.length) {
+            document.getElementById("task").innerHTML = tasks[taskNumber - 1];
+            document.getElementById("instruct").innerHTML = instructions[taskNumber - 1];
+            taskNumber++;
+        } else {
+            // After the last task, change the button text to "Break Time!"
+            document.getElementById("task").innerHTML = "Task 4:";
+            document.getElementById("instruct").innerHTML = "Instructions 4";
+            document.querySelector("button").innerHTML = "Break Time!";
+        }
+    }
+    </script>
+
+
+
+    
+
      
     </body>
 </html>
