@@ -13,12 +13,25 @@
      <h1>Task 1:</h1>
      <p> lorem ipsum lorem ipsum</p>
     </section>
-    <h1 id="task"> Next Task!</h1>
+   
+  <iframe src="https://docs.google.com/spreadsheets/d/11iPL-ui04Ve-VajcuYI1l5flDSCxhQH8muRtPtBZq-c/edit?rm=minimal
+  "></iframe>  
+<div>
+    <button id="changeTextBtn">Next Task!</button>
+</div>
+
 <section id="photos">
     <img id="estrella1" src="../img/estrellas.png">
     <img id="logo" src="../img/logo.png">
 </section>  
-     
+    
+<script>
+     document.addEventListener("DOMContentLoaded", function() {let button = document.getElementById("changeTextBtn"); button.addEventListener("click", function() {
+                document.getElementById("taskTitle").innerText = "Task 2";
+                document.getElementById("taskDescription").innerText = "This is the next task!";
+            });
+        });
+</script>
      
     </body>
 </html>
