@@ -35,11 +35,11 @@ p{
 
 section{
   display: flex;
-  align-items: center; 
-  gap: 5px; 
-  background-color: #EFF29B;
+  flex-direction: column; 
   height: 100px;
-  width:80%;
   margin: 5%;
+}
 
+#points{
+  align-self: flex-start;
 }
