@@ -38,11 +38,19 @@ section{
   flex-direction: column;
   align-items: start; 
   height: 100px;
-  margin: 5%
+  margin: 5%;
+  
 }
 
 #points{
   align-self: flex-start;
   margin-bottom: 2px;
   margin-top: 2px;
+}
+
+video{
+  align-items: center;
+  margin: auto;
+  height: 500px;
+  margin-top: 100px;
 }
