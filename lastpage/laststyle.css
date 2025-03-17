@@ -67,7 +67,7 @@ video{
   position: absolute;
   width: 950px;
   top: -1%;
-  left: 15%;
+  left: 16%;
   margin-bottom: 10px;
 }
 
@@ -91,4 +91,9 @@ video{
   width:150px;
   top: 25%;
   left:2%;
+}
+
+#logo{
+  width: 300px;
+  padding-left: 4%;
 }
