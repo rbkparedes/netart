@@ -43,15 +43,15 @@ p{
   gap: 10px; 
   height: 100px;
   margin-bottom: 5%;
-  margin-top: 5%;
+  margin-top: 10%;
   padding-left: 30%;
   
 }
 
 iframe{
   width:100%;
-  height: 500px;
-  margin-top: 80px;
+  height: 600px;
+  margin-top: 100px;
   z-index: 99999;
   
 }
@@ -113,8 +113,8 @@ div{
 
 #nube{
   position: absolute;
-  width: 900px;
-  top: 0%;
+  width: 800px;
+  top: 10%;
   left: -60%;
   z-index: 0;
 }
