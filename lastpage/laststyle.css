@@ -54,7 +54,7 @@ video{
   margin: auto;
   height: 550px;
   margin-top: 200px;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
   border-style: dotted;
   border-color:#D9597B;
   border-width: 5px;
@@ -95,6 +95,31 @@ video{
 
 #logo{
   width: 300px;
-  padding-left: 5%;
+  padding-left: 85%;
   align-self: center;
+}
+
+button{
+  background-color:#EFF29B;
+    color:#D9597B;
+    font-family: "Braah One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+    width: 400px;
+    font-size: 40px;
+    border-style: dotted;
+    border-color:#D9597B;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    pointer-events: auto; 
+    display: block;
+    position: relative;
+    z-index: 9999;
+    margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
 }
