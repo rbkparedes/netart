@@ -95,5 +95,6 @@ video{
 
 #logo{
   width: 300px;
-  padding-left: 4%;
+  padding-left: 5%;
+  align-self: center;
 }
