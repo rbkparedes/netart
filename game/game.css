@@ -74,3 +74,7 @@ button{
     z-index: 9999;
 }
 
+img{
+  width: 400px;
+  padding-left: 78%;
+}
