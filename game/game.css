@@ -41,16 +41,17 @@ p{
   display: flex;
   align-items: center; 
   gap: 10px; 
-  background-color: #EFF29B;
+  background-color: #f29b9bef;
   height: 100px;
   margin-bottom: 5%;
   margin-top: 5%;
+  padding-left: 30%;
   
 }
 
 iframe{
   width:100%;
-  height: 700px;
+  height: 600px;
 }
 
 button{
@@ -79,15 +80,31 @@ img{
   padding-left: 80%;
 }
 
-div{
-  position: absolute;
-  top: 0%;
-  left: 0%;
+#cabeza{
+  width: 700px;
+  transform: rotate(-20deg);
 }
 
-#cabeza{
-  width: 600px;
+div{
   position: absolute;
-  top: 0%;
-  left: 0%;
+  top: -20%;
+  left: -55%;
+  z-index: index 6; ;
+}
+
+#estrella{
+  position: absolute;
+  transform: rotate(-20deg);
+  top: 20%;
+  right: 2%;
+  width:150px;
+
+}
+
+#estrella2{
+  position: absolute;
+  width:150px;
+  transform: rotate(20deg);
+  bottom: -10%;
+  left: -75%;
 }
