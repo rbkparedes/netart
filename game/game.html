@@ -14,7 +14,7 @@
     </div>       
     <section id="sectask">
      <h1 id="task">Task 1:</h1>
-     <p id="instruct"> Instructions 1</p>
+     <p id="instruct"> A client just called to to schedule an appointment for Thursday, you should find a slot for them.</p>
     </section>
     <img id="nube" src="../img/cloud.png">
     <button onclick="change_text()" >Next Task!</button>
@@ -36,7 +36,7 @@
         }
         let taskNumber = 1;
     const tasks = ["Task 2:", "Task 3:", "Task 4:"];
-    const instructions = ["Instructions 2", "Instructions 3", "Instructions 4"];
+    const instructions = ["Two clients somehow got booked at the same time, find a way to fit them into the schedule", "Wait the boss's best friend needs an emergency appointment, is there room or will you have to tell them you can't?", "A walk-in client claims they totally had an appointment but can't remember when. Investigate the schedule, find them a slot, or politely send them away."];
     
     function change_text() {
         // Update task and instructions based on taskNumber
@@ -47,7 +47,7 @@
         } else {
             // After the last task, change the button text to "Break Time!"
             document.getElementById("task").innerHTML = "Task 4:";
-            document.getElementById("instruct").innerHTML = "Instructions 4";
+            document.getElementById("instruct").innerHTML = "A client claims they can't remember when they had their appointment scheduled, will you trust them or send them away?";
             document.querySelector("button").innerHTML = "Break Time!";
             document.querySelector("button").onclick = function() {
                 window.location.href = "../lastpage/lastpage.html";

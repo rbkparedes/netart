@@ -21,7 +21,7 @@ h1{
   font-family: "Braah One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 60px;
+  font-size: 20px;
 }
 
 #task{
@@ -34,7 +34,8 @@ p{
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: 40px;
+  font-size: 20px;
+
 }
 
 #sectask{
@@ -84,7 +85,7 @@ img{
 }
 
 #cabeza{
-  width: 700px;
+  width: 800px;
   transform: rotate(-20deg);
   z-index: 9999;
 }
@@ -92,7 +93,7 @@ img{
 div{
   position: absolute;
   top: -20%;
-  left: -53%; 
+  left: -63%; 
 }
 
 #estrella{
@@ -108,7 +109,7 @@ div{
   position: absolute;
   width:150px;
   transform: rotate(20deg);
-  bottom: -10%;
+  bottom: -50%;
   left: -75%;
 }
 
